@@ -1,0 +1,107 @@
+/*html, body, {
+    height: 100%;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+}*/
+body {
+    background-image: url("../images/image.jpg");
+    background-size: 100%;
+}
+
+#container {
+	width: 60%;
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+}
+
+#counter{
+	font-family: myFirstFont;
+	font-size: 3em;
+}
+
+header {
+	text-align: center;
+	border: #fff 1px;
+	color: white;
+}
+
+header h1 {
+	margin: 0
+	padding: 0;
+	color: white;
+	font-size: 5em;
+} 
+
+header p {
+	padding: 0;
+	margin-top: 5px;
+	color: white;
+
+}
+
+section {
+	min-height: 400px;
+	color: black;
+	background-color: silver;
+	opacity: 0.6;
+}
+
+h3 {
+	font-family: myFirstFont;
+}
+
+#startButton{
+	background-color: black;
+	margin: -20px -50px;
+	position: relative;
+	bottom: -150px;
+	right: -350px;
+	vertical-align: middle;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+	color: antiquewhite;
+	font-family: myFirstFont;
+	font-size: 4em;
+}
+
+footer{
+	text-align: center;
+	background-color: silver;
+}
+
+input[type='radio']{
+	cursor: pointer;
+}
+
+input[type='submit']{
+	border: 0;
+	border-style: bold;
+	color: antiquewhite;
+	background-color: black;
+	font-family: myFirstFont;
+	width: 100px;
+	height: 50px;
+	padding:10px 15px;
+	cursor: pointer;
+	text-align: center;
+}
+/*
+#results h3 {
+	padding: 10px;
+	margin: 10px;
+}
+
+#results span {
+
+}*/
